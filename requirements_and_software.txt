@@ -1,0 +1,36 @@
+python -m streamlit run app.py
+
+
+requirements_and_software.txt
+
+
+=========================================================
+TAXONLINE24 WORKSPACE - SYSTEM REQUIREMENTS
+=========================================================
+
+1. REQUIRED BASE SOFTWARE
+These must be installed directly on your Windows computer, not just via Python.
+
+* Python: Version 3.8 or higher.
+* Tesseract OCR: The optical character recognition engine. 
+  - Must be installed at: C:\Program Files\Tesseract-OCR\tesseract.exe
+* Poppler: The PDF rendering engine.
+  - Must be extracted to: C:\poppler\Library\bin
+
+---------------------------------------------------------
+
+2. REQUIRED PYTHON LIBRARIES
+Open your terminal or command prompt and run this single command to install every required library at once:
+
+pip install streamlit PyPDF2 Pillow pdf2image img2pdf pytesseract PyMuPDF pdf2docx python-docx tabula-py pandas openpyxl reportlab
+
+---------------------------------------------------------
+
+3. STANDARD PYTHON LIBRARIES (No installation required)
+These are built directly into Python and are used by the app:
+* io
+* zipfile
+* tempfile
+* os
+* math
+* re

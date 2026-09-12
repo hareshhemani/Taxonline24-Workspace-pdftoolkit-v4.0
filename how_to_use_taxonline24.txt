@@ -1,0 +1,45 @@
+=========================================================
+TAXONLINE24 WORKSPACE - OFFICIAL USER GUIDE
+=========================================================
+
+HOW TO START THE APPLICATION:
+1. Open your Terminal or Command Prompt.
+2. Navigate to the folder where your 'app.py' file is saved.
+3. Type the following command and press Enter:
+   streamlit run app.py
+4. A browser window will automatically open with your Workspace. Keep the black terminal window open in the background!
+
+---------------------------------------------------------
+HOW TO NAVIGATE:
+* The Left Sidebar is your main control panel.
+* Tools are divided into three categories:
+  1. Manipulation (Merging, Splitting, Cropping, etc.)
+  2. Conversion (PDF to Word, Image, Excel, etc.)
+  3. Security & Advanced (Passwords, Watermarks, Signatures, Redaction)
+* Click any tool to open it in the main window. Click the "Dashboard" or "Back to Home" button to see the main overview.
+
+---------------------------------------------------------
+KEY TOOL HIGHLIGHTS & PRO-TIPS:
+
+1. THE "SCANNED PDF" RULE:
+If your PDF is just a photograph of a piece of paper (a scan), standard converters cannot read the text. 
+* When using "PDF to Word" or "Deep Compress", always check the "This is a Scanned PDF" box so the app knows to use the special OCR and image-shrinking engines!
+
+2. DEEP COMPRESSION:
+* Native PDFs: Strips unused data and deflates code.
+* Scanned PDFs: You will get a slider! Crank it to "Aggressive" or "Extreme (Black & White)" to drastically shrink large image files.
+
+3. PDF TO EXCEL:
+PDFs do not naturally have "tables". The app tries to guess where the columns are.
+* Use the toggle buttons to tell the app if your table has visible gridlines or just floating text.
+* Use the "Smart Combine" feature if you want the app to stitch multiple pages of tables into a few clean sheets instead of 50 separate tabs.
+
+4. CROP MARGINS:
+The cropping tool uses standard Inches. If you want to cut half an inch off the top of your document, simply type 0.5 in the Top box.
+
+5. SMART REDACT:
+Type the exact words you want to hide (one word per line). The app will search every page, find those words, and draw a permanent black box over them.
+
+---------------------------------------------------------
+TROUBLESHOOTING:
+If the app suddenly shows a "Connection Error" on the screen, it means your terminal window closed or went to sleep. Simply open the terminal and type 'streamlit run app.py' again to turn the engine back on!
