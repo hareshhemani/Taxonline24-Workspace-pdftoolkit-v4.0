@@ -115,4 +115,10 @@ python build.py
 ---
 
 ## 📄 License
-Distributed under the MIT License.
+Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
+
+---
+
+## ⚖️ Copyright & Disclaimer
+* Copyright (c) 2026 **Haresh Kumar Hemani** ([Taxonline24](https://www.taxonline24.in)).
+* Third-party dependencies and external tools (such as **Tesseract OCR**, **Poppler**, and Python libraries) are the property and copyright of their respective authors and projects.
